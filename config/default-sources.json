@@ -1,0 +1,47 @@
+{
+  "podcasts": [
+    {
+      "name": "Ground Truths (Eric Topol)",
+      "rssUrl": "https://pod2txt.vercel.app/api/feed?url=https://api.substack.com/feed/podcast/587835/s/119690.rss",
+      "url": "https://erictopol.substack.com"
+    },
+    {
+      "name": "The Long Run (Luke Timmerman)",
+      "rssUrl": "https://feeds.soundcloud.com/users/soundcloud:users:317770704/sounds.rss",
+      "url": "https://timmermanreport.com/the-long-run/"
+    },
+    {
+      "name": "Raising Health (a16z Bio + Health)",
+      "rssUrl": "https://feeds.simplecast.com/BXDamaKF",
+      "url": "https://www.youtube.com/@a16z"
+    },
+    {
+      "name": "Training Data (Sequoia)",
+      "rssUrl": "https://feeds.megaphone.fm/trainingdata",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+    }
+  ],
+  "blogs": [],
+  "x_accounts": [
+    { "name": "Demis Hassabis", "handle": "demishassabis" },
+    { "name": "Eric Topol", "handle": "EricTopol" },
+    { "name": "Mohammed AlQuraishi", "handle": "MoAlQuraishi" },
+    { "name": "Patrick Hsu", "handle": "pdhsu" },
+    { "name": "Jure Leskovec", "handle": "jure" },
+    { "name": "Pranav Rajpurkar", "handle": "pranavrajpurkar" },
+    { "name": "Anima Anandkumar", "handle": "AnimaAnandkumar" },
+    { "name": "Sergey Ovchinnikov", "handle": "sokrypton" },
+    { "name": "Alex Zhavoronkov", "handle": "biogerontology" },
+    { "name": "Alexander Rives", "handle": "alexrives" },
+    { "name": "Ali Madani", "handle": "thisismadani" },
+    { "name": "Joshua Meier", "handle": "joshim5" },
+    { "name": "Stef van Grieken", "handle": "stefvangrieken" },
+    { "name": "Simon Kohl", "handle": "saakohl" },
+    { "name": "Institute for Protein Design", "handle": "UWproteindesign" },
+    { "name": "Arc Institute", "handle": "arcinstitute" },
+    { "name": "Chai Discovery", "handle": "chaidiscovery" },
+    { "name": "Profluent", "handle": "ProfluentBio" },
+    { "name": "Recursion", "handle": "RecursionPharma" },
+    { "name": "Moderna", "handle": "moderna_tx" }
+  ]
+}
