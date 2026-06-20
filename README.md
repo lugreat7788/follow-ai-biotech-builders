@@ -22,7 +22,7 @@ WhatsApp, etc.) with:
 ## Quick Start
 
 1. Install the skill in your agent (OpenClaw or Claude Code)
-2. Say "set up follow builders" or invoke `/follow-builders`
+2. Say "set up follow ai biotech builders" or invoke `/follow-ai-biotech-builders`
 3. The agent walks you through setup conversationally — no config files to edit
 
 The agent will ask you:
@@ -75,9 +75,8 @@ These are plain English instructions, not code. Changes take effect on the next 
 ### AI×Biotech Builders on X (20)
 [Demis Hassabis](https://x.com/demishassabis), [Eric Topol](https://x.com/EricTopol), [Mohammed AlQuraishi](https://x.com/MoAlQuraishi), [Patrick Hsu](https://x.com/pdhsu), [Jure Leskovec](https://x.com/jure), [Pranav Rajpurkar](https://x.com/pranavrajpurkar), [Anima Anandkumar](https://x.com/AnimaAnandkumar), [Sergey Ovchinnikov](https://x.com/sokrypton), [Alex Zhavoronkov](https://x.com/biogerontology), [Alexander Rives](https://x.com/alexrives), [Ali Madani](https://x.com/thisismadani), [Joshua Meier](https://x.com/joshim5), [Stef van Grieken](https://x.com/stefvangrieken), [Simon Kohl](https://x.com/saakohl), [Institute for Protein Design](https://x.com/UWproteindesign), [Arc Institute](https://x.com/arcinstitute), [Chai Discovery](https://x.com/chaidiscovery), [Profluent](https://x.com/ProfluentBio), [Recursion](https://x.com/RecursionPharma), [Moderna](https://x.com/moderna_tx)
 
-### Official Blogs (2)
-- [Anthropic Engineering](https://www.anthropic.com/engineering) — technical deep-dives from the Anthropic team
-- [Claude Blog](https://claude.com/blog) — product announcements and updates from Claude
+### Official Blogs (0)
+None — no blog sources are configured. You can add biotech Substacks/blogs to `config/default-sources.json` later if you want.
 
 ## Installation
 
@@ -114,7 +113,7 @@ See [examples/sample-digest.md](examples/sample-digest.md) for what the output l
 ## Privacy
 
 - No API keys are sent anywhere — all content is fetched centrally
-- If you use Telegram/email delivery, those keys are stored locally in `~/.follow-builders/.env`
+- If you use Telegram/email delivery, those keys are stored locally in `~/.follow-ai-biotech-builders/.env`
 - The skill only reads public content (public blog posts, public YouTube videos, public X posts)
 - Your configuration, preferences, and reading history stay on your machine
 

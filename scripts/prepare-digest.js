@@ -23,7 +23,7 @@ import { homedir } from 'os';
 
 // -- Constants ---------------------------------------------------------------
 
-const USER_DIR = join(homedir(), '.follow-builders');
+const USER_DIR = join(homedir(), '.follow-ai-biotech-builders');
 const CONFIG_PATH = join(USER_DIR, 'config.json');
 
 const FEED_X_URL = 'https://raw.githubusercontent.com/lugreat7788/follow-ai-biotech-builders/main/feed-x.json';
@@ -85,7 +85,7 @@ async function main() {
 
   // 3. Load prompts with priority: user custom > remote (GitHub) > local default
   //
-  // If the user has a custom prompt at ~/.follow-builders/prompts/<file>,
+  // If the user has a custom prompt at ~/.follow-ai-biotech-builders/prompts/<file>,
   // use that (they personalized it — don't overwrite with remote updates).
   // Otherwise, fetch the latest from GitHub so they get central improvements.
   // If GitHub is unreachable, fall back to the local copy shipped with the skill.

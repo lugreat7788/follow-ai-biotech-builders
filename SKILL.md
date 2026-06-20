@@ -36,7 +36,7 @@ Save the detected platform in config.json as `"platform": "openclaw"` or `"platf
 
 ## First Run — Onboarding
 
-Check if `~/.follow-builders/config.json` exists and has `onboardingComplete: true`.
+Check if `~/.follow-ai-biotech-builders/config.json` exists and has `onboardingComplete: true`.
 If NOT, run the onboarding flow:
 
 ### Step 1: Introduction
@@ -130,8 +130,8 @@ All content is fetched centrally. Skip to Step 6.
 Create the .env file with only the delivery key they need:
 
 ```bash
-mkdir -p ~/.follow-builders
-cat > ~/.follow-builders/.env << 'ENVEOF'
+mkdir -p ~/.follow-ai-biotech-builders
+cat > ~/.follow-ai-biotech-builders/.env << 'ENVEOF'
 # Telegram bot token (only if using Telegram delivery)
 # TELEGRAM_BOT_TOKEN=paste_your_token_here
 
@@ -168,7 +168,7 @@ No need to edit any files — just tell me what you want."
 
 Save the config (include all fields — fill in the user's choices):
 ```bash
-cat > ~/.follow-builders/config.json << 'CFGEOF'
+cat > ~/.follow-ai-biotech-builders/config.json << 'CFGEOF'
 {
   "platform": "<openclaw or other>",
   "language": "<en, zh, or bilingual>",
@@ -311,7 +311,7 @@ This workflow runs on cron schedule or when the user invokes `/ai`.
 
 ### Step 1: Load Config
 
-Read `~/.follow-builders/config.json` for user preferences.
+Read `~/.follow-ai-biotech-builders/config.json` for user preferences.
 
 ### Step 2: Run the prepare script
 
@@ -435,20 +435,20 @@ open an issue at https://github.com/lugreat7788/follow-ai-biotech-builders."
 
 ### Prompt Changes
 When a user wants to customize how their digest sounds, copy the relevant prompt
-file to `~/.follow-builders/prompts/` and edit it there. This way their
+file to `~/.follow-ai-biotech-builders/prompts/` and edit it there. This way their
 customization persists and won't be overwritten by central updates.
 
 ```bash
-mkdir -p ~/.follow-builders/prompts
-cp ${CLAUDE_SKILL_DIR}/prompts/<filename>.md ~/.follow-builders/prompts/<filename>.md
+mkdir -p ~/.follow-ai-biotech-builders/prompts
+cp ${CLAUDE_SKILL_DIR}/prompts/<filename>.md ~/.follow-ai-biotech-builders/prompts/<filename>.md
 ```
 
-Then edit `~/.follow-builders/prompts/<filename>.md` with the user's requested changes.
+Then edit `~/.follow-ai-biotech-builders/prompts/<filename>.md` with the user's requested changes.
 
 - "Make summaries shorter/longer" → Edit `summarize-podcast.md` or `summarize-tweets.md`
 - "Focus more on [X]" → Edit the relevant prompt file
 - "Change the tone to [X]" → Edit the relevant prompt file
-- "Reset to default" → Delete the file from `~/.follow-builders/prompts/`
+- "Reset to default" → Delete the file from `~/.follow-ai-biotech-builders/prompts/`
 
 ### Info Requests
 - "Show my settings" → Read and display config.json in a friendly format

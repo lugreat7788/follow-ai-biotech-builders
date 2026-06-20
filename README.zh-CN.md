@@ -18,7 +18,7 @@
 ## 快速开始
 
 1. 在你的 AI agent 中安装此 skill（OpenClaw 或 Claude Code）
-2. 输入 "set up follow builders" 或执行 `/follow-builders`
+2. 输入 "set up follow ai biotech builders" 或执行 `/follow-ai-biotech-builders`
 3. Agent 会以对话方式引导你完成设置——不需要手动编辑任何配置文件
 
 Agent 会询问你：
@@ -68,9 +68,8 @@ Skill 使用纯文本 prompt 文件来控制内容的摘要方式。你可以通
 ### X 上的 AI×生物医药建造者（20位）
 [Demis Hassabis](https://x.com/demishassabis), [Eric Topol](https://x.com/EricTopol), [Mohammed AlQuraishi](https://x.com/MoAlQuraishi), [Patrick Hsu](https://x.com/pdhsu), [Jure Leskovec](https://x.com/jure), [Pranav Rajpurkar](https://x.com/pranavrajpurkar), [Anima Anandkumar](https://x.com/AnimaAnandkumar), [Sergey Ovchinnikov](https://x.com/sokrypton), [Alex Zhavoronkov](https://x.com/biogerontology), [Alexander Rives](https://x.com/alexrives), [Ali Madani](https://x.com/thisismadani), [Joshua Meier](https://x.com/joshim5), [Stef van Grieken](https://x.com/stefvangrieken), [Simon Kohl](https://x.com/saakohl), [蛋白质设计研究所 IPD](https://x.com/UWproteindesign), [Arc Institute](https://x.com/arcinstitute), [Chai Discovery](https://x.com/chaidiscovery), [Profluent](https://x.com/ProfluentBio), [Recursion](https://x.com/RecursionPharma), [Moderna](https://x.com/moderna_tx)
 
-### 官方博客（2个）
-- [Anthropic Engineering](https://www.anthropic.com/engineering) — Anthropic 团队的技术深度文章
-- [Claude Blog](https://claude.com/blog) — Claude 的产品公告与更新
+### 官方博客（0个）
+暂无 —— 未配置任何博客源。如需要可后续在 `config/default-sources.json` 里添加生物医药 Substack/博客。
 
 ## 安装
 
@@ -105,7 +104,7 @@ cd ~/skills/follow-ai-biotech-builders/scripts && npm install
 ## 隐私
 
 - 不发送任何 API key——所有内容由中心化服务获取
-- 如果你使用 Telegram/邮件推送，相关 key 仅存储在本地 `~/.follow-builders/.env`
+- 如果你使用 Telegram/邮件推送，相关 key 仅存储在本地 `~/.follow-ai-biotech-builders/.env`
 - Skill 只读取公开内容（公开的博客文章、YouTube 视频和 X 帖子）
 - 你的配置、偏好和阅读记录都保留在你自己的设备上
 
